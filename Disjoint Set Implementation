@@ -1,0 +1,17 @@
+We assumed that B is a parent node for the set (B, C, D).
+
+We preserve a single representative for each node in the disjoint collection.
+
+When we look for an element in a specific node, it takes us to the parent of
+that node.
+
+We now have two subsets, but neither B nor A has a parent node.
+
+Each tree is an independent disjoint set, which means that if two or more
+items are in the same tree, they belong to the same disjoint set, otherwise
+they are separate.
+
+If B is a representation for a certain tree, then Parent[i]=B.
+
+If B is not a representative, we can move up the tree to find the parent or
+representative for the tree
